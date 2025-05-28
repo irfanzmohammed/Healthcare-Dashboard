@@ -40,13 +40,13 @@ body {
 .search-box {
   position: relative;
   flex: 1;
-  max-width: 350px;
-  margin-left: -10px;
+  max-width: 335px;
+  margin-left: -765px;
 }
 
 .search-box input {
   width: 100%;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 45px 10px 40px;
   border: 1px  #ccc;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
@@ -70,15 +70,12 @@ body {
   border: none;
   border-radius: 6px;
   padding: 6px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position:absolute;
   color: #1a2e88;
   width: 36px;
   height: 36px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  margin-right:300px;
+   left:750px;
 }
 
 .bell-icon{
