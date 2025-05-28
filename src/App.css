@@ -40,8 +40,8 @@ body {
 .search-box {
   position: relative;
   flex: 1;
-  max-width: 400px;
-  margin-left: -650px;
+  max-width: 380px;
+  margin-left: -600px;
 }
 
 .search-box input {
@@ -121,7 +121,7 @@ body {
   position: relative;
   top: -115px; 
   left: -10px;
-  height: calc(100vh +  -150px); 
+  height: calc(100vh +  -110px); 
   width: 190px;
   background-color: #f0f6ff;
   padding:  110px 20px 0px;
@@ -457,7 +457,7 @@ body {
 }
 
 /* right section */
-.right-section {
+/* .right-section {
   background-color: #f0f6ff;
   padding: 30px 35px 130px 5px;
   border-radius: 20px 20px 20px 0;
@@ -467,8 +467,19 @@ body {
   top: -135px;
   min-height: 400px; 
   max-height:600px;
+} */
+.right-section {
+  position:relative;
+  background-color: #f0f6ff;
+  padding: 30px 35px 40px 20px;
+  border-radius: 20px 20px 20px 0;
+  width: 100%;
+  max-width: 750px;
+  min-width: 650px;
+  box-sizing: border-box;
+  margin-top: -130px;
+  height:fit-content;
 }
-
 
 
 
