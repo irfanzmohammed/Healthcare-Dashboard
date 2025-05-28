@@ -26,7 +26,7 @@ body {
   color:rgb(1, 1, 72); 
 }
 
- /* header */
+ /* header component*/
 .header{
   display: flex;
   justify-content: space-between;
@@ -42,7 +42,7 @@ body {
   position: relative;
   flex: 1;
   max-width: 335px;
-  margin-left: -650px;
+  margin-left: -655px;
 }
 
 .search-box input {
