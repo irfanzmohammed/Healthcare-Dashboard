@@ -13,12 +13,12 @@ const Header = () => {
          className="search-icon" 
          size={16}/>
         <input type="text" placeholder="Search" />
-        <IoNotifications
-         className="bell-icon" 
-         size={16}
-         stroke="blue"/>
+       
       </div>
       <div className="right-icons">
+         <button className="notification-btn">
+      <IoNotifications size={18} />
+     </button>
       <button className='avatar' >👦🏻</button>
       <button className='add-btn'><Plus className="icon" /></button>
 
