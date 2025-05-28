@@ -41,7 +41,7 @@ body {
   position: relative;
   flex: 1;
   max-width: 400px;
-  margin-left: -600px;
+  margin-left: -650px;
 }
 
 .search-box input {
@@ -114,9 +114,6 @@ body {
   padding: 0 0 10px 0px;
  position: relative;
  overflow: visible;
-
- 
- 
 }
 
 
@@ -124,14 +121,13 @@ body {
   position: relative;
   top: -115px; 
   left: -10px;
-  height: calc(100vh +  -175px); 
+  height: calc(100vh +  -150px); 
   width: 190px;
   background-color: #f0f6ff;
   padding:  110px 20px 0px;
   border-radius:20px 0 0 20px;
   z-index: 1;
   overflow: visible;
-
   display: flex;
   flex-direction: column;
   
@@ -466,7 +462,7 @@ body {
   padding: 30px 35px 130px 5px;
   border-radius: 20px 20px 20px 0;
   min-width: 350px;
-  max-width: 650px;
+  max-width: 680px;
   position: relative;
   top: -135px;
   min-height: 400px; 
@@ -587,7 +583,7 @@ body {
   color: rgb(1, 1, 72);
   padding: 6px 10px; 
   border-radius: 20px;
-  width: 320px;
+  width: 280px;
   top:345px;
   left: 290px;
   margin-top: -15px; 
@@ -596,6 +592,7 @@ body {
 
 
 .doctor {
+  font-family: 'Segoe UI', sans-serif;
  font-weight: 600;
  font-size: 14px;
   margin-bottom: 8px;
@@ -603,7 +600,7 @@ body {
 }
 
 .time {
-  font-size: 12px;
+   font-size: 12px;
    margin-bottom: 0;
 }
 
@@ -619,7 +616,7 @@ body {
 }
 
 .tooth-emoji {
-  margin-left: 65px;
+  margin-left: 80px;
 }
 
 .arm-emoji{
@@ -627,87 +624,89 @@ body {
 }
 
 /* simpleAppoinment */
-.simple-card {
-  margin-bottom: 25px;
-  background-color: #e6edfb;
-  border-radius: 16px;
-  padding: 10px 18px;
- 
-  width: 220px; 
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.card {
+  border-radius: 12px;
+  padding: 10px 16px;
+  margin: 8px 8px 0 0;
+  width: fit-content;
+  min-width: 180px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 30px;
+  height:65px;
 }
 
 .card-title {
-  font-weight: 600;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 14px;
-  color: #0d1b52;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
-.icon {
-  font-size: 18px;
+.card-icon {
+  margin-left: auto;
+  padding-left: 12px;
+  font-size:16px;
 }
 
 .card-time {
-  font-size: 13px;
-  color: #1a1a1a;
-  margin-top: -4px;
+  font-size: 12px;
+  color: rgb(1, 1, 72);
+  margin-top: 4px;
 }
 
-.upcoming-schedule {
-  margin-top: 20px;
-}
-
-/* upcoming schedule */
-.upcoming-schedule h3 {
-  font-size: 16px;
-  color:rgb(1, 1, 72);
-  margin-left:40px;
-
-}
-
-.schedule-day h4 {
-  color:gray;
-   margin-left:40px;
-   margin-top: -2px;
-
-}
+#card1 {
+  margin-left: 30px;
+  background-color: #e6edfb;
+  color: rgb(1, 1, 72);
+  width: 280px;
  
-.schedule-day .cards-row {
+}
+
+#card2 {
+ background-color: #e6edfb;
+  color:rgb(1, 1, 72);
+}
+
+#card3 {
+ background-color: #e6edfb;
+  color: rgb(1, 1, 72);
+}
+
+#card4 {
+background-color: #e6edfb;
+  color: rgb(1, 1, 72);
+}
+
+ /* upcoming schedule */
+.schedule-container {
+  margin-top: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.schedule-title {
+   margin-left: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+   color:rgb(1, 1, 72);
+}
+
+.day-section {
+  margin-bottom: 20px;
+}
+
+.day-label {
+  color:gray;
+   margin-left: 32px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.cards-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px; 
-  align-items: flex-start;
-}
-
-.card-1 {
-  width: 290px;
-  margin-left: 25px;
-   margin-top: -10px;
-}
-
-.card-2 {
-  width: 250px;
-   margin-top: -10px;
-}
-.simple-card.card-3 {
-  width: 100px;
-  margin-top: -10px;
-}
-
-
-.simple-card.card-4 {
-  width: 200px;
-  margin-top: -10px;
-}
-
-.schedule-day.saturday {
-  margin-top: -10px;
 }

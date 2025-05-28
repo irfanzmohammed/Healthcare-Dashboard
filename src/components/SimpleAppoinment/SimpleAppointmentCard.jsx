@@ -1,15 +1,16 @@
 import React from 'react'
 
-const SimpleAppointmentCard = ({title,icon,time,customClass}) => {
-  return (
-    <div className={`simple-card ${customClass}`}>
-      <div className="card-header">
-        <p className="card-title">{title}</p>
-        <span className="icon">{icon}</span>
+const SimpleAppointmentCard = ({title,icon,time,id}) => {
+    return (
+    <div className="card" id={id}>
+      <div className="card-title">
+        <span>{title}</span>
+        <span className="card-icon">{icon}</span>
       </div>
-      <p className="card-time">{time}</p>
+      <div className="card-time">{time}</div>
     </div>
   );
+
 }
 
 export default SimpleAppointmentCard
