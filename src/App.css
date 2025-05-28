@@ -492,12 +492,12 @@ left-section {
   padding: 30px 30px 40px 20px;
   border-radius: 20px 20px 20px 0;
   width: 100%;
-  max-width: 780px;
+  max-width: 730px;
   min-width: 650px;
   box-sizing: border-box;
   margin-top: -130px;
-  flex-shrink: 0;;
-  height: auto;
+  flex-shrink: 0;
+  height: fit-content;
   overflow: visible;
 }
 
