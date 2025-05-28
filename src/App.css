@@ -208,7 +208,7 @@ body {
 }
 
 .week{
- 
+  font-family: 'Segoe UI',sans-serif;
   color:rgb(1, 1, 72); 
   margin-left: 250px;
   margin-top: 10px;
@@ -378,6 +378,7 @@ body {
 }
 
 .details{
+  font-family: 'Segoe UI',sans-serif;
    color:rgb(1, 1, 72); 
    position:absolute;
    top:345px;
@@ -481,7 +482,7 @@ body {
   box-sizing: border-box;
   margin-top: -130px;
   flex-shrink: 0;
-  max-height: 750px;
+  max-height: 800px;
   overflow: visible;
 }
 
